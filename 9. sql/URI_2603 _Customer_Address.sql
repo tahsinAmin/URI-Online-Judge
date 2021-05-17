@@ -1,0 +1,1 @@
+SELECT name, street WHERE city = 'Porto Alegre';

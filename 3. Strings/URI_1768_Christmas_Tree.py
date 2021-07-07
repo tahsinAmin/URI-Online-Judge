@@ -6,10 +6,8 @@ while(True):
     asterik = 1
     h = height - 1
     for i in range(height):
-
     	for j in range(h+asterik):	
-    			print(" ",end="") if (j < h) else print("*",end="")
-    			
+    			print(" ",end="") if (j < h) else print("*",end="")   			
     	asterik += 2
     	h-=1
     	print("")
@@ -17,14 +15,12 @@ while(True):
     asterik = 1
     h = height-1
     for i in range(2):
-
       for j in range(h+asterik):	
-          print(" ",end="") if (j < h) else print("*",end="")
-          
+          print(" ",end="") if (j < h) else print("*",end="")       
       asterik += 2
       h-=1
       print("")
-
+      
     print("")
   except(EOFError):
     break

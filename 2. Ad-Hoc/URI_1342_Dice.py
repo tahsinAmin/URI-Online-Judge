@@ -1,5 +1,3 @@
-# First do without traps.
- 
 no_of_players, no_of_squares = map(int, input().split())
  
 players_location = [0]*no_of_players
@@ -12,4 +10,5 @@ for i in range(no_dice_rolls):
 	players_location[pos] += d1 + d2
 	pos = (pos+1) % no_of_players
  
-print(no_of_players, no_of_squares, traps, no_dice_rolls, players_location)
+print(traps, players_location)
+# time to make use of the traps

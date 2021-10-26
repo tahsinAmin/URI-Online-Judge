@@ -8,3 +8,7 @@ They have:
 > Then compare their code to see who's better.
 > helped to make the codes optimized.
 > helped me figure out to solve a problem.
+
+Make sure:
+
+> to challange yourself by writing lesser code than me and get accepted.

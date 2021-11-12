@@ -1,0 +1,1 @@
+SELECT name, math as final_score

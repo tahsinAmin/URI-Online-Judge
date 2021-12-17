@@ -1,6 +1,8 @@
 I attribute my success to them:
 
-> Marcos Romero - https://github.com/mrmourao
+- Marcos Romero(~) - https://github.com/mrmourao
+- Mateus(19) - https://github.com/Matuiss2
+- Vinicius Mangueira(2) - https://github.com/ViniciusDeep
 
 They have:
 

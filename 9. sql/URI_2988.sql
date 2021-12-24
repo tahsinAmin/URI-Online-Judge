@@ -4,7 +4,8 @@ today I tried to solve #2988 SQL problem this is my code and I have submited wit
 
 select teams.name , count(teams.id) as matches,
 
-count( CASE WHEN (team_1_goals > team_2_goals and teams.id = team_1)  or   (team_2_goals > team_1_goals and teams.id = team_2)  then 1 end ) as victories ,
+count( CASE 
+         WHEN (team_1_goals > team_2_goals and teams.id = team_1) or (team_2_goals > team_1_goals and teams.id = team_2)  then 1 end ) as victories ,
 
 count( case when (team_1_goals < team_2_goals and teams.id = team_1)  or   (team_2_goals < team_1_goals and teams.id = team_2) then 1 end ) as defeats ,
 

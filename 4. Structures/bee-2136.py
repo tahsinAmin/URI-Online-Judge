@@ -1,34 +1,23 @@
-s = input()
-yes_arr = []
-no_arr = []
-info = {}
+name, decision = map(str, input().split())
+decisionary = {'NO': [], 'YES': []}
 winner = ""
-while s != "FIM":
-    data = s.split()
-    if data[0] in info:
-        info[data[0]] += 0 if data[1] == "NO" else 1
-    else:
-        if data[1] == "NO":
-            no_arr.append(data[0])
-            info[data[0]] = 0
+
+while True:
+    try:
+        if decision == 'YES':
+            if name not in decisionary['YES']:
+                decisionary['YES'].append(name)
+                if len(name) > len(winner):
+                    winner = name
         else:
-            yes_arr.append(data[0])
-            info[data[0]] = 1
+            decisionary['NO'].append(name)
+        name, decision = map(str, input().split())
+    except ValueError:
+        break
 
-    s = input()
+decisionary['YES'].sort()
+decisionary['NO'].sort()
 
-a_name = ""
-for x in yes_arr:
-    if x in info:
-        a_name = a_name if a_name else x
-        if info[x] > 1:
-            winner = x
-            break
-winner = winner if winner else a_name
-
-yes_arr.sort()
-no_arr.sort()
-[print(i) for i in yes_arr]
-[print(i) for i in no_arr]
-print(f"\nAmigo do Habay:")
-print(winner)
+[print(i) for i in decisionary['YES']]
+[print(i) for i in decisionary['NO']]
+print(f"\nAmigo do Habay:\n{winner}")

@@ -1,6 +1,9 @@
-while True:
-    tickets, people = map(int, input().split())
-    if tickets + people == 0:
-        break
-    data = [int(i) for i in input().split()]
-    print(sorted(data))
+8
+# Belgica 2 2 2
+# Brasil 7 6 6
+# Franca 10 18 14
+# Italia 8 12 8
+# Australia 8 11 10
+# Colombia 3 2 3
+# Suica 3 2 2
+# Tailandia 2 2 2

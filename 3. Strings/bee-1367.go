@@ -1,5 +1,3 @@
-// https://www.beecrowd.com.br/judge/en/problems/view/1367
-
 package main
 
 import (
@@ -7,28 +5,32 @@ import (
 )
 
 func contains(s []string, e string) bool {
-	fmt.Println("We have", s, e)
 	for _, a := range s {
 		if a == e {
 			return true
 		}
 	}
-
 	return false
 }
 
 func main() {
-
 	var n int
-	fmt.Scan(&n)
+	fmt.Scanln(&n)
 	for n != 0 {
-		cnt, total, distinct_c, distinct_inc := 0, 0, make([]string, n), make([]string, n)
+		var (
+			cnt,
+			total int
+			distinct_c,
+			distinct_inc []string
+		)
 
 		for j := 0; j < n; j++ {
-			var a string
-			var c string
-			var b int
-			fmt.Scan(&a, &b, &c)
+			var (
+				a,
+				c string
+				b int
+			)
+			fmt.Scanf("%s %v %s", &a, &b, &c)
 
 			if c == "correct" && !contains(distinct_c, a) {
 				cnt += 1
@@ -44,6 +46,6 @@ func main() {
 			}
 		}
 		fmt.Println(cnt, total)
-		fmt.Scan(&n)
+		fmt.Scanln(&n)
 	}
 }

@@ -43,3 +43,23 @@ Scan
 	var x, y int
 	fmt.Scan(&x, &y)
 ```
+
+## Slice
+
+- List sort descending
+
+```
+	lados := []float64{A, B, C}
+
+	sort.Slice(lados, func(i, j int) bool { // Descending order slice
+		return lados[i] > lados[j]
+	})
+```
+
+## Variables
+
+- Declaring multiple variable at once
+
+```
+	A, B, C = arr[0], arr[1], arr[2]
+```

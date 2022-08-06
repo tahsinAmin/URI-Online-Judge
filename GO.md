@@ -1,5 +1,7 @@
 # I have leanred
 
+## Package
+
 - math package
 
 ```
@@ -15,9 +17,29 @@ func main() {
 }
 ```
 
+## Print format
+
 - To 1 decimal place
 
 ```
 fmt.Printf("Area = %.1f\n", (0.5 * (A + B) * C))
 
+```
+
+## Scan Format
+
+- Scanf vs. Scan
+
+ScanF
+
+```
+	var x, y int
+	fmt.Scanf("%v %v", &x, &y)
+```
+
+Scan
+
+```
+	var x, y int
+	fmt.Scan(&x, &y)
 ```

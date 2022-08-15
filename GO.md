@@ -21,12 +21,11 @@ func main() {
 
 - To 1 decimal place
 
-`fmt.Printf("Area = %.1f\n", (0.5 * (A + B) * C))
-`
+`fmt.Printf("Area = %.1f\n", (0.5 * (A + B) * C)) `
 
 - For integer
 
-`fmt.Printf("O JOGO DUROU %d HORA(S)\n", C)`
+`fmt.Printf("You have %d \n", C)` or `fmt.Printf("You have %.0f \n", C)`
 
 ## Scan Format
 
@@ -63,3 +62,9 @@ Scan
 - Declaring multiple variable at once
 
 `A, B, C = arr[0], arr[1], arr[2]`
+
+### Incremenet
+
+` cnt++`
+or
+`cnt+=1`

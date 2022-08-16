@@ -63,6 +63,10 @@ Scan
 
 `A, B, C = arr[0], arr[1], arr[2]`
 
+- Default value
+
+`var num float32; // means num is 0.0`
+
 ### Incremenet
 
 ` cnt++`

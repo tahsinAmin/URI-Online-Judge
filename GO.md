@@ -27,6 +27,9 @@ func main() {
 
 `fmt.Printf("You have %d \n", C)` or `fmt.Printf("You have %.0f \n", C)`
 
+- For Printing '%'
+  `fmt.Printf("Percentual de sapos: %.2f %%\n", experiments["S"]/total*100)`
+
 ## Scan Format
 
 - Scanf vs. Scan

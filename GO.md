@@ -32,6 +32,13 @@ func main() {
 
 ## Scan Format
 
+- bufio (To read a sentence)
+
+```
+	scanner := bufio.NewScanner(os.Stdin)
+		for scanner.Scan() {
+```
+
 - Scanf vs. Scan
 
 ScanF

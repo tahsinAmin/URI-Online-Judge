@@ -1,5 +1,6 @@
 I attribute my success to them:
 
+- João Vitor Bernardino - https://github.com/JoaoVitorBernardino
 - Marcos Romero(~) - https://github.com/mrmourao
 - Mateus(19) - https://github.com/Matuiss2
 - Vinicius Mangueira(2) - https://github.com/ViniciusDeep

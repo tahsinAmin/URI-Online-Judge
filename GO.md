@@ -1,5 +1,20 @@
 # I have leanred
 
+## End of File
+
+```
+	scanner := bufio.NewScanner(os.Stdin)
+	for scanner.Scan() != false {
+```
+
+## Iterate
+
+```
+		for _, s := range str {
+			...
+		}
+```
+
 ## Package
 
 - math package

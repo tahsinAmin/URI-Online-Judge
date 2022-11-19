@@ -1,10 +1,13 @@
+def twoSum(nums, target):
+    seen = {}
+    for i, num in enumerate(nums):
+        if target - num in seen:
+            return [seen[target - num], i]
+        elif num not in seen:
+            seen[num] = i
+
+
 nums = [2, 7, 11, 15]
 target = 9
-i, j = 0, 1
-while i < len(nums):
-    while j < len(nums):
-        if nums[i] + nums[j] == target:
-            print([i, j])
-            break
-        j += 1
-    i += 1
+
+print(twoSum(nums, target))

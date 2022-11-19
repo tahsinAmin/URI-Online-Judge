@@ -1,5 +1,12 @@
 # I have leanred
 
+# Character Reead
+
+```
+	s := "tahsin"
+	fmt.Println(string([]rune(s)[1]))
+```
+
 ## End of File
 
 ```

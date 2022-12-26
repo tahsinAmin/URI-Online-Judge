@@ -1,6 +1,6 @@
 # I have leanred
 
-# Character Reead
+# Character Read
 
 ```
 	s := "tahsin"
@@ -98,6 +98,10 @@ Scan
 - Default value
 
 `var num float32; // means num is 0.0`
+
+- Floating value as output
+
+` To get that, we need foloating value inputs`
 
 ### Incremenet
 

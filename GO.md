@@ -22,6 +22,17 @@
 		}
 ```
 
+## Map (Dictionary)
+
+### How to check if a key exist in map
+```
+	val, ok := myMap["foo"]
+	// If the key exists
+	if ok {
+		// Do something
+	}
+```
+
 ## Package
 
 - math package

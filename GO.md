@@ -114,6 +114,13 @@ Scan
 
 ` To get that, we need foloating value inputs`
 
+- INTERCHANGE VARIABLE VALUES
+```
+	if x > y {
+		x, y = y, x
+	}
+```
+
 ### Incremenet
 
 ` cnt++`

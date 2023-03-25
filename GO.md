@@ -7,14 +7,26 @@
 	fmt.Println(string([]rune(s)[1]))
 ```
 
-## End of File
+# Do-While Loop
+```
+for {
+	...
+	...
+	...
+	if <condition_not_matched> {
+		break
+	}
+}
+```
+
+# End of File
 
 ```
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() != false {
 ```
 
-## Iterate
+# Iterate
 
 ```
 		for _, s := range str {
@@ -22,7 +34,7 @@
 		}
 ```
 
-## Map (Dictionary)
+# Map (Dictionary)
 
 ### How to check if a key exist in map
 ```
@@ -33,7 +45,7 @@
 	}
 ```
 
-## Package
+# Package
 
 - math package
 
@@ -50,7 +62,7 @@ func main() {
 }
 ```
 
-## Print format
+# Print format
 
 - To 1 decimal place
 
@@ -62,8 +74,9 @@ func main() {
 
 - For Printing '%'
   `fmt.Printf("Percentual de sapos: %.2f %%\n", experiments["S"]/total*100)`
+  `fmt.Printf("Inter:%d\nGremio:%d\n", inter, gremio)`
 
-## Scan Format
+# Scan Format
 
 - bufio (To read a sentence)
 
@@ -88,7 +101,7 @@ Scan
 	fmt.Scan(&x, &y)
 ```
 
-## Slice
+# Slice
 
 - List sort descending
 
@@ -100,7 +113,7 @@ Scan
 	})
 ```
 
-## Variables
+# Variables
 
 - Declaring multiple variable at once
 

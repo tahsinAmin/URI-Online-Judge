@@ -11,6 +11,7 @@ I attribute my success to them:
 - [Vinicius Mangueira(2)](https://github.com/ViniciusDeep)
 - [Gabriel Castro (3)](https://github.com/gabrielcsg/uri-codes-go)
 - [Felix Gilioli (1)](https://github.com/felixgilioli/uri-resolutions-golang)
+- [Gabriel Fonseca (1)(4)](https://github.com/fnsc)
 
 They have:
 

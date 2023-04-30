@@ -2,7 +2,6 @@
 
 ![Screenshot from 2022-10-30 10-33-03](https://user-images.githubusercontent.com/29802879/198862748-b9ad09ed-6e5d-4c6f-bb5f-789f426e37e6.png)
 
-
 I attribute my success to them:
 
 - [João Vitor Bernardino](https://github.com/JoaoVitorBernardino)
@@ -12,6 +11,7 @@ I attribute my success to them:
 - [Gabriel Castro (3)](https://github.com/gabrielcsg/uri-codes-go)
 - [Felix Gilioli (1)](https://github.com/felixgilioli/uri-resolutions-golang)
 - [Gabriel Fonseca (1)(4)](https://github.com/fnsc)
+- [Alexandre Melo](https://github.com/xandymelo)
 
 They have:
 

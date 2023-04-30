@@ -103,6 +103,13 @@ Scan
 
 # Slice
 
+- Declare slice after knwoing its length
+
+```
+	fmt.Scan(&n)
+	a := make([]int, n)
+```
+
 - List sort descending
 
 ```

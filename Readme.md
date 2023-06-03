@@ -13,6 +13,7 @@ I attribute my success to them:
 - [Gabriel Fonseca (1)(4)](https://github.com/fnsc)
 - [Alexandre Melo (0)(2)](https://github.com/xandymelo)
 - [Tahanima Chowdhury (1)(5)](https://github.com/Tahanima)
+- [Alynne Ferreira (0)(11)](https://github.com/alynnefs)
 
 They have:
 
@@ -24,8 +25,3 @@ They have:
 Make sure:
 
 > to challange yourself by writing lesser code than me and get accepted.
-
-<!-- Todos:
-
-- Making of Table such as https://github.com/fnsc/go_playground/tree/main/1_beginner/1100
-- How to add image -->

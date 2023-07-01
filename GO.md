@@ -1,5 +1,12 @@
 # I have leanred
 
+## Math package
+
+### Math.mod
+
+- This can be used for floating value as normal `%` cannot do it right
+  `math.Mod(remains, notes[i]))`
+
 # Character Read
 
 ```
@@ -8,6 +15,7 @@
 ```
 
 # Do-While Loop
+
 ```
 for {
 	...
@@ -37,6 +45,7 @@ for {
 # Map (Dictionary)
 
 ### How to check if a key exist in map
+
 ```
 	val, ok := myMap["foo"]
 	// If the key exists
@@ -75,6 +84,11 @@ func main() {
 - For Printing '%'
   `fmt.Printf("Percentual de sapos: %.2f %%\n", experiments["S"]/total*100)`
   `fmt.Printf("Inter:%d\nGremio:%d\n", inter, gremio)`
+
+  ## Rounding a floating value to a certain precision.
+
+  `remains, _ = strconv.ParseFloat(fmt.Sprintf("%.2f", math.Mod(remains, notes[i])), 64)`
+  Here floating value is taken to a string and then converted to float.
 
 # Scan Format
 
@@ -135,6 +149,7 @@ Scan
 ` To get that, we need foloating value inputs`
 
 - INTERCHANGE VARIABLE VALUES
+
 ```
 	if x > y {
 		x, y = y, x
